@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6200ea;
+    color: white;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.theme-toggle {
+    background-color: #ffffff;
+    color: #6200ea;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-toggle:hover {
+    background-color: #ececec;
+}
+
+.content {
+    padding: 20px;
+    font-size: 1rem;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #f9f9f9;
+}
+
+.dark-mode .header {
+    background-color: #222;
+}
+
+.dark-mode .theme-toggle {
+    background-color: #444;
+    color: #f9f9f9;
+}
